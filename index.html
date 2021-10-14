@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container top">
+            <h1>The Weather</h1>
+            <form action="" onsubmit="return false">
+                <input type="text" class="search" placeholder="type in city name">
+                <button type="submit" class="btn">submit</button>
+                <p class="error"></p>
+            </form>
+            <section>
+                <div class="container">
+                    <div class="icon">
+                        <img src="01d@2x.png" alt="" class="weather-icon">
+                    </div>
+                    <div class="location">
+                        <div class="city">New York, USA</div>
+                        <div class="date">Wednesday, 13 October 2021</div>
+                    </div>
+                    <hr>
+                    <div class="current">
+                        <div class="temp">Temp: <span>12<span>°C</span></span></div>
+                        <div class="weather">Weather: <span>Sunny</span></div>
+                        <div class="weather-des">Description: <br><span>Sunny with chance of meatballs</span></div>
+                        <div class="temp-range">Temp Range: <span>10°C /15°C</span></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
